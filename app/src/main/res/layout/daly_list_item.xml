@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lista_dias"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+
+        android:id="@+id/dia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textColor="@android:color/background_light"
+        tools:text="Today" />
+
+    <TextView
+        android:id="@+id/tiempo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Party Cloudy in the morning"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/porcentaje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rain Probality 24 %"
+        android:textSize="18sp" />
+
+
+</LinearLayout>
